@@ -35,51 +35,8 @@
 
 <div class="container" style="padding:20px;">
   <h3 style="text-align:center;">Experience</h3>
-  <ul class="collapsible popout" data-collapsible="accordion">
-    <!-- {% include experiences.html %} -->
-
-    <li>
-      <div class="collapsible-header"><i
-           class="material-icons">filter_drama</i>Siimpl</div>
-      <div class="collapsible-body">
-        <p>
-        At Siimpl, I worked on projects for Instructure's Professional Services team and developed React/Rails applications for their clients. These applications followed the LTI standard and they integrated with Canvas (Instructure's core LMS platform). I built a variety of features ranging from constructing API requests, fine tuning and building background jobs, developing front end interactions.
-        </p>
-
-        <p>
-In our down time, I developed the reporting and metrics features on Time Management - our internal project and resources tracking application. Tools used: React.js, Rails, Grommet, D3, Docker.
-        </p>
-      </div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i
-           class="material-icons">filter_drama</i>Adorable</div>
-      <div class="collapsible-body experience">
-        <p>
-          My main project at Adorable was developing major features for a real estate blogging and SEO application. The main initiative was to focus on user engagement and generate more traffic. The project was a Ruby on Rails application with JavaScript frameworks including jQuery and Knockout.js. The project suffered from severe amounts of technical debt which led to many technical challenges. Through thorough investigation and testing, we were still able to make major enhancements with minimal bugs. Here are some of the major accomplishments during my time on the project:
-        </p>
-        <ul class="achievements">
-          <li>
-            Implemented major features starting from product design to delivery, improving the user experience
-          </li>
-          <li>
-            Architected database queries which yielded 50% improvement in load times
-          </li>
-          <li>
-            Developed the foundation of the test framework and practiced TDD, reducing regressions
-          </li>
-          <li>
-            Automated deployments using CircleCI and Capistrano, saving 5+ hours per month
-          </li>
-        </ul>
-        <p>
-          Overall, our efforts on the project resulted in increased user excitement and an improved experience when browsing real estate agent blog posts.
-        </p>
-        <p>
-          In my downtime between clients, I ramped up my knowledge of React.js and then leveraged these new skills in prototyping a potential product. This product had a goal of making standup note documentation easier. We achieved this by using intuitive keyboard shortcuts to quickly mark each note as did/doing/blocked as well as navigating between each task easily. The product was also intended to deliver the notes to a large group of key stakeholders automatically. We decided not to spend more resources on developing the product further but it was a great learning experience in focusing on the user experience and making interactions operate smoothly while learning to write clean componentized code in React.js.
-        </p>
-      </div>
-    </li>
+  <ul class="collapsible popout experience" data-collapsible="accordion">
+    {% include experiences.html %}
   </ul>
 </div>
 

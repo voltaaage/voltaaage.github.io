@@ -3,7 +3,6 @@
 /*   position: relative; */
 /* } */
 
-.experience .achievements li {
-  list-style-type: circle;
+.experience li {
   margin-left: 2em;
 }
