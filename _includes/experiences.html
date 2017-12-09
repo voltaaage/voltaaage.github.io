@@ -1,0 +1,12 @@
+<li>
+  <div class="collapsible-header"><i
+       class="material-icons">filter_drama</i>Testing</div>
+  <div class="collapsible-body"><span>This should be here</span></div>
+</li>
+{% for experience in site.experiences %}
+  <li>
+    <div class="collapsible-header"><i
+         class="material-icons">filter_drama</i>{{experience.name}}</div>
+    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+  </li>
+{% endfor %}

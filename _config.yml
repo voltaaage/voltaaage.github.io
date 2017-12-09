@@ -13,22 +13,46 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Fong Fan
+email: fong.fan.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Software Developer
+twitter_username: fongvoltfan
+github_username:  voltaaage
+
+# Layouts - Home
+parallax_image_one:  https://images.unsplash.com/photo-1438401171849-74ac270044ee?auto=format&fit=crop&w=1492&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+parallax_image_two:  https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1352&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+parallax_image_three:  https://images.unsplash.com/photo-1491472253230-a044054ca35f?auto=format&fit=crop&w=1363&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+
+# Includes - Carousel
+project_one: Phazam
+project_one_icon: photo_camera
+project_one_description: Photography!
+project_one_url: http://phazam.fanfong.com
+
+project_button: Github
+github: https://github.com/voltaaage
+
+baseurl: / # The URL of your site
+url: http://localhost:4000/ # The URL of your site
+
+# google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+# cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
+
+# # Collections
+# collections:
+# - experiences
+
 
 # Build settings
 markdown: kramdown
-theme: jekyll-material-theme
+permalink: pretty
 plugins:
   - jekyll-feed
+  - jekyll-assets
+  # - jekyll-minifier
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
