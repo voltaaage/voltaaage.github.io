@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: Fong Fan
+headshot: 'assets/images/headshot.jpg'
 title: Fong Fan
 email: fong.fan.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"

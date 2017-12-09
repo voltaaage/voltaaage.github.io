@@ -10,6 +10,14 @@
   margin-left: 2em;
 }
 
+h1 {
+  margin-bottom: 0.4rem;
+}
+
+.headshot {
+  height: 12em;
+}
+
 .company-logo {
   height: 2em;
   margin-right: 1em;
