@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 parallax_image_one:  https://images.unsplash.com/photo-1438401171849-74ac270044ee?auto=format&fit=crop&w=1492&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 parallax_image_two:  https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1352&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 parallax_image_three:  https://images.unsplash.com/photo-1491472253230-a044054ca35f?auto=format&fit=crop&w=1363&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+parallax_image_four:  https://images.unsplash.com/photo-1491472253230-a044054ca35f?auto=format&fit=crop&w=1363&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 
 # Includes - Carousel
 project_one: Phazam
@@ -40,6 +41,8 @@ github_username:  voltaaage
 # Collections
 collections:
 - experiences
+- skills
+- projects
 
 # Site
 baseurl: / # The URL of your site

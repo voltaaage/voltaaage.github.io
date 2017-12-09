@@ -17,9 +17,11 @@
 </div>
 
 <div class="container" style="padding:20px;">
-  <div id="portfolio" class="section scrollspy">
-    <h3 style="text-align:center;">Portfolio</h3>
-    {% include carousel.html %}
+  <div id="experience" class="section scrollspy">
+    <h3 style="text-align:center;">Experience</h3>
+    <ul class="collapsible popout experience" data-collapsible="accordion">
+      {% include experiences.html %}
+    </ul>
   </div>
 </div>
 
@@ -34,10 +36,29 @@
 </div>
 
 <div class="container" style="padding:20px;">
-  <h3 style="text-align:center;">Experience</h3>
-  <ul class="collapsible popout experience" data-collapsible="accordion">
-    {% include experiences.html %}
-  </ul>
+  <div id="portfolio" class="section scrollspy">
+    <h3 style="text-align:center;">Portfolio</h3>
+    {% include carousel.html %}
+  </div>
+</div>
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="{{site.parallax_image_three}}" alt="Unsplashed background img 3"></div>
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="skills" class="section scrollspy">
+    <h3 style="text-align:center;">Skills</h3>
+    <div class="skills-container">
+      {% include skills.html %}
+    </div>
+  </div>
 </div>
 
 <div class="parallax-container valign-wrapper">
@@ -64,7 +85,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="{{site.parallax_image_three}}" alt="Unsplashed background img 3"></div>
+  <div class="parallax"><img src="{{site.parallax_image_four}}" alt="Unsplashed background img 4"></div>
 </div>
 
 <div class="container" style="padding:20px;">

@@ -7,6 +7,16 @@
   margin-right: 1em;
 }
 
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-logo {
+  height: 2em;
+  margin-right: 1em;
+}
+
 .social-links {
 	list-style: none;
 	padding: 0;

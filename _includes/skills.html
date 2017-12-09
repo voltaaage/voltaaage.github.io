@@ -1,0 +1,6 @@
+{% for skill in site.data.skills %}
+<div class="chip">
+  <img src="assets/images/skills/{{skill.logo}}" class="skills-logo" alt="{{skill.name}}"/>
+  {{skill.name}}
+</div>
+{% endfor %}
