@@ -1,8 +1,14 @@
 ---
 name:  "Adorable"
+title: "Software Engineer"
+icon: "adorable.png"
 ---
 
-My main project at Adorable was developing major features for a real estate blogging and SEO application. The main initiative was to focus on user engagement and generate more traffic. The project was a Ruby on Rails application with JavaScript frameworks including jQuery and Knockout.js. The project suffered from severe amounts of technical debt which led to many technical challenges. Through thorough investigation and testing, we were still able to make major enhancements with minimal bugs. Here are some of the major accomplishments during my time on the project:
+* **Software Engineer**
+* Mar 2016 - Mar 2017
+* Seattle, WA
+
+My main project at Adorable was developing major features for a real estate blogging and SEO application. The main initiative was to focus on user engagement and generate more traffic. The project was a Ruby on Rails application with JavaScript frameworks including jQuery and Knockout.js. The project suffered from severe amounts of technical debt which led to many technical challenges. Through thorough investigation and testing, we were still able to make major enhancements with minimal bugs. Here are some of the accomplishments during my time on the project:
 
 * Implemented major features starting from product design to delivery, improving the user experience
 * Architected database queries which yielded 50% improvement in load times

@@ -1,6 +1,12 @@
 ---
 name:  "Siimpl"
+title: "Software Engineer"
+icon: "siimpl.png"
 ---
+
+* **Software Engineer**
+* Apr 2017 - Nov 2017
+* Seattle, WA
 
 At Siimpl, I worked on projects for Instructure's Professional Services team and developed React/Rails applications for their clients. These applications followed the LTI standard and they integrated with Canvas (Instructure's core LMS platform). I built a variety of features ranging from constructing API requests, fine tuning and building background jobs, developing front end interactions.
 

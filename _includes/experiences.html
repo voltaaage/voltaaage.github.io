@@ -1,7 +1,9 @@
 {% for experience in site.experiences %}
-  <li>
-    <div class="collapsible-header"><i
-         class="material-icons">filter_drama</i>{{experience.name}}</div>
-    <div class="collapsible-body">{{experience.content}}</div>
-  </li>
+<li>
+  <div class="collapsible-header">
+    <img src="assets/images/{{experience.icon}}" alt="" class="circle responsive-img">
+    <i class="material-icons">filter_drama</i>{{experience.name}}
+  </div>
+  <div class="collapsible-body">{{experience.content}}</div>
+</li>
 {% endfor %}
