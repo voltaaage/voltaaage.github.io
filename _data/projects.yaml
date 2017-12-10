@@ -1,0 +1,27 @@
+- name: Uber Price Tracker
+  url: http://phazam.fanfong.com
+  github: http://github.com/voltaaage/uber-price-tracker
+  materialize_bg_color: indigo darken-1
+  description: A Ruby on Rails web application that provides analytics in Uber pricing between a user's most frequent destinations. Built using the Uber API.
+
+- name: Fresh-Mint
+  github: http://github.com/voltaaage/fresh-mint
+  materialize_bg_color: green darken-3
+  description: A React/Rails application that parses Mint transaction data and provides a month by month breakdown of expenses in user defined categories.
+
+- name: Crown City Screen Printing
+  materialize_bg_color: cyan darken-2
+  description: A javascript form that calculates a price quote for customers based on shirt type, number of colors, quantity, and fabric type. Built on the Shopify platform.
+
+- name: Board Builder
+  github: http://github.com/pcww/board-builder
+  materialize_bg_color: deep-purple darken-1
+  description: A React application that allows customers to customize a beautiful wooden cutting board with a highly interactive customization UI. Built using D3.
+
+- name: Phazam
+  url: http://phazam.fanfong.com
+  github: http://github.com/voltaaage/phazam
+  materialize_bg_color: teal darken-2
+  description: A Ruby on Rails Web Application that allows photographers to test their eye for settings used. Can you guess the shutter speed that was used? How about the focal length? Find out how you do in our challenge mode!
+
+
