@@ -1,5 +1,5 @@
 - name: Uber Price Tracker
-  url: http://phazam.fanfong.com
+  url: https://uber-price-tracker.herokuapp.com/
   github: http://github.com/voltaaage/uber-price-tracker
   materialize_bg_color: indigo darken-1
   description: A Ruby on Rails web application that provides analytics in Uber pricing between a user's most frequent destinations. Built using the Uber API.
