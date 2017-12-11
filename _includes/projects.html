@@ -1,19 +1,24 @@
-{% for project in site.data.projects %}
-<div class="col m12 l6">
-  <div class="card {{ project.materialize_bg_color }}">
-    <div class="card-content white-text">
-      <span class="card-title">{{ project.name }}</span>
-      <p>{{ project.description }}</p>
+<div id="projects" class="col s12">
+  <h3 style="text-align:center;">Portfolio</h3>
+  <div class="row">
+    {% for project in site.data.projects %}
+    <div class="col m12 l6">
+      <div class="card {{ project.materialize_bg_color }}">
+        <div class="card-content white-text">
+          <span class="card-title">{{ project.name }}</span>
+          <p>{{ project.description }}</p>
+        </div>
+        <div class="card-action">
+          {% if project.url %}
+          <a href="{{ project.url }}"><i class="fa fa-folder-open-o"></i></a>
+          {% endif %}
+          {% if project.github %}
+          <a href="{{ project.github }}"><i class="fa fa-github"></i></a>
+          {% endif %}
+        </div>
+      </div>
     </div>
-    <div class="card-action">
-      {% if project.url %}
-      <a href="{{ project.url }}"><i class="fa fa-folder-open-o"></i></a>
-      {% endif %}
-      {% if project.github %}
-      <a href="{{ project.github }}"><i class="fa fa-github"></i></a>
-      {% endif %}
-    </div>
+    {% endfor %}
   </div>
 </div>
-{% endfor %}
 

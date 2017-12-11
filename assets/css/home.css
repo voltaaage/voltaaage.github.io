@@ -3,7 +3,11 @@
 }
 
 .parallax-container {
-  height: 750px;
+  height: 40em;
+}
+
+#home {
+  padding-top: 0;
 }
 
 .experience li {
@@ -12,6 +16,11 @@
 
 h1 {
   margin-bottom: 0.4rem;
+}
+
+#info {
+  padding:20px;
+  min-height: 45vh;
 }
 
 .headshot {

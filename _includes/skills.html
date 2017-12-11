@@ -1,6 +1,11 @@
-{% for skill in site.data.skills %}
-<div class="chip">
-  <img src="assets/images/skills/{{skill.logo}}" class="skills-logo" alt="{{skill.name}}"/>
-  {{skill.name}}
+<div id="skills" class="col s12">
+  <h3 style="text-align:center;">Skills</h3>
+  <div class="skills-container">
+    {% for skill in site.data.skills %}
+    <div class="chip">
+      <img src="assets/images/skills/{{skill.logo}}" class="skills-logo" alt="{{skill.name}}"/>
+      {{skill.name}}
+    </div>
+    {% endfor %}
+  </div>
 </div>
-{% endfor %}

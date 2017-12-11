@@ -1,21 +1,24 @@
-<div class="row">
-  {% for post in site.posts %}
+<div id="blog" class="col s12">
+  <h3 style="text-align:center;">Blog</h3>
+  <div class="row">
+    {% for post in site.posts %}
 
-  <div class="col s12 m6">
-    <a href="{{ post.url | relative_url }}">
-      <div class="card cyan lighten-2">
-        <!-- <div class="card-image"> -->
-        <div class="card-content white-text">
-          <img src="{{post.image}}">
-          <span class="card-title">{{ post.title | escape }}</span>
-          <p>{{post.excerpt}}</p>
-          <!-- <div class="card-action"> -->
-          <!--   <a href="#">This is a link</a> -->
+    <div class="col s12 m6">
+      <a href="{{ post.url | relative_url }}">
+        <div class="card cyan lighten-2">
+          <!-- <div class="card-image"> -->
+          <div class="card-content white-text">
+            <img src="{{post.image}}">
+            <span class="card-title">{{ post.title | escape }}</span>
+            <p>{{post.excerpt}}</p>
+            <!-- <div class="card-action"> -->
+            <!--   <a href="#">This is a link</a> -->
+            <!-- </div> -->
+          </div>
           <!-- </div> -->
         </div>
-        <!-- </div> -->
-      </div>
-    </a>
+      </a>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
