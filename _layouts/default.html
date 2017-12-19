@@ -1,6 +1,15 @@
 {% include head.html %}
 
-{% include nav-burger.html %}
+<nav>
+  <div class="nav-wrapper">
+    <a href="{{ site.baseurl }}" class="brand-logo">Fong Fan</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="{{ site.baseurl }}">Portfolio</a></li>
+      <li><a href="{{ site.baseurl }}#blog">Blog</a></li>
+      <li><a href="{{ site.baseurl }}#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
   {{content}}
 
