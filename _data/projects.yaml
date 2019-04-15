@@ -14,7 +14,7 @@
   description: A javascript form that calculates a price quote for customers based on shirt type, number of colors, quantity, and fabric type. Built on the Shopify platform.
 
 - name: Board Builder
-  github: http://github.com/pcww/board-builder
+  github: http://github.com/pcww/builder
   materialize_bg_color: deep-purple darken-1
   description: A React application that allows customers to customize a beautiful wooden cutting board with a highly interactive customization UI. Built using D3.
 
